@@ -3,6 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## creatiAIverse AI Platform, Build with Next.js 13, React, Tailwind, Prisma, Stripe
 
 Features:
+
 - Tailwind design
 - Tailwind animations and effects
 - Full responsiveness
@@ -18,16 +19,23 @@ Features:
 - Free tier with API limiting
 
 ## Prerequisites
+
 Node version 18.x.x
+
 ## Cloning the repository
+
 ```bash
 git clone https://github.com/Ad019El/creatiAIverse.git
 ```
+
 ## Install packages
+
 ```bash
 npm install
 ```
+
 ## Setup .env file
+
 ```env
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
@@ -48,9 +56,10 @@ STRIPE_WEBHOOK_SECRET=
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
 ```
 
-
 ## Setup Prisma
+
 Add MySQL Database (I used PlanetScale)
+
 ```bash
 npx prisma db push
 ```
@@ -64,4 +73,5 @@ yarn dev
 # or
 pnpm dev
 ```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
